@@ -1,31 +1,30 @@
-// Тестові завдання з методичних вказівок викладача.
 export const tasks = [
   {
     id: 1,
-    title: 'Створити структуру проєкту',
-    description: 'Підготувати каталоги та файли TaskFlow',
-    status: 'done',
-    priority: 'high',
+    title: 'Створити проєкт TaskFlow',
+    description: 'Vite, Vue 3 і Framework7',
+    completed: true
   },
   {
     id: 2,
-    title: 'Налаштувати Framework7',
-    description: 'Підключити мобільні компоненти інтерфейсу',
-    status: 'progress',
-    priority: 'medium',
+    title: 'Підготувати структуру проєкту',
+    description: 'Каталоги та сторінки',
+    completed: true
   },
   {
     id: 3,
-    title: 'Реалізувати картку завдання',
-    description: 'Створити компонент TaskCard',
-    status: 'todo',
-    priority: 'medium',
+    title: 'Налаштувати навігацію',
+    description: 'Маршрути та панель',
+    completed: false
   },
   {
     id: 4,
-    title: 'Перевірити PWA',
-    description: 'Зібрати та встановити застосунок',
-    status: 'todo',
-    priority: 'low',
+    title: 'Підготувати звіт',
+    description: 'Оформлення результатів',
+    completed: false
   },
+
+  { id: 5, title: 'Перевірити адаптивність', description: 'Екрани 375 та 768 px', completed: true },
+  { id: 6, title: 'Оновити GitHub', description: 'Зберегти зміни проєкту', completed: false },
+  { id: 7, title: 'Опублікувати PWA', description: 'Розгорнути застосунок на Cloudflare', completed: false },
 ];
